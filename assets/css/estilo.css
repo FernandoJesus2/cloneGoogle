@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(14, 63, 61, 0.562);
+}
+
+/*Toda essa parte é do cabeçalho*/
+
+.cabecalho{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+}
+
+.cabecalho header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.cabecalho header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho header .link{
+    width: 130px;
+    height: 24px;
+    padding: 0 15px 0 0;
+}
+
+.cabecalho header .link .gmail{
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.cabecalho header .link .imagens{
+    width: 68px;
+    height: 24px;
+}
+
+.cabecalho header .menucompleto{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.cabecalho header .menu{
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+}
+
+.cabecalho header .rosto{
+    height: 40px;
+    width: 40px; 
+    margin-right: 10px;
+}
+
+.cabecalho header .rosto img{
+    border-radius: 50%;
+}
+
+.cabecalho header .gmail a,
+.cabecalho header .imagens a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.cabecalho header .menu .esquerda .circulo,
+.cabecalho header .menu .centro .circulo,
+.cabecalho header .menu .direita .circulo{
+    width: 4px;
+    height: 4px;
+    margin: 1px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.cabecalho header .menucompleto:hover{
+    border-radius: 50%;
+    background-color: rgba(136, 135, 135, 0.411);
+    cursor: pointer;
+}
+
+.cabecalho header .rosto:hover{
+    border-radius: 50%;
+    background-color: rgba(136, 135, 135, 0.411);
+    cursor: pointer;
+}
+
+.cabecalho header .gmail a:hover,
+.cabecalho header .imagens a:hover{
+    text-decoration: underline;
+}
+/*ate aqui*/   
+
+/*.....*/
+
+.logogoogle{
+    margin: 80px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+/*.....*/
+
+
+/*outra div*/
+
+.googlepesquisa{
+    height: 160px;
+    padding: 20px;
+}
+
+.googlepesquisa .pesquisa{
+    height: 140px;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 580px;
+    height: 46px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    border-radius: 30px;
+    padding: 5px 8px 0 14px;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa input{
+    margin: 0 20px;
+    width: 70%;
+    height: 90%;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 18px;
+    border: 0;
+    appearance: none;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa input:focus{
+    outline: 0;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa #teclado:hover{
+    cursor: pointer;
+}
+
+.googlepesquisa .pesquisa .caixa_pesquisa #microfone{
+    cursor: pointer;
+}
+
+.googlepesquisa .pesquisa .parte_botoes{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.googlepesquisa .pesquisa .parte_botoes .botoes_alinhados button{
+    margin: 10px;
+    height: 36px;
+    width: 150px;
+    color: #FFF;
+    background-color: rgba(97, 97, 97, 0.527);  
+    border: none; 
+    border-radius: 3px;
+}
+
+.googlepesquisa .pesquisa .parte_botoes .botoes_alinhados button:hover{
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+/*--------------*/
+
+.descricao{
+  margin: auto;
+}
+
+.descricao p{
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.descricao a{
+    text-decoration: none;
+    color: rgb(101, 179, 247);
+}
+
+/*--------------*/
+
+.rodape{
+    position:absolute;
+	bottom:0;
+	width:100%;
+
+    background-color: bisque;
+}
+
+.rodape footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(88, 78, 78);
+}
+
+.rodape footer .rodape_esquerdo{
+    display: flex;
+}
+
+.rodape footer .rodape_esquerdo .detalhes{
+    margin-right: 10px;
+}
+
+.rodape footer .rodape_direito{
+    display: flex;
+}
+
+.rodape footer .rodape_direito .detalhes{
+    margin-right: 10px;
+}
